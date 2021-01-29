@@ -1,0 +1,91 @@
+/*
+
+    Creado por Francisco
+    Diciembre de 2020
+
+*/
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 50px;
+}
+
+h3{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.mflotantes{
+    width: 80%;
+    margin: auto;
+}
+
+
+.mflotantes a{
+    background-color: goldenrod;
+    text-decoration: none;
+    color: white;
+    display: block;
+    float: right;
+    width: 25%;
+    padding: 0.5cm 0;
+
+}
+
+.mflex{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.mflex a{
+    background-color: purple;
+    color: white;
+    padding: 0.5cm 0;
+    text-decoration: none;
+    /* flex: extender reducir tamaño */
+    flex: 1 0 auto;
+    text-align: center;
+}
+
+.mgrid{
+    display: grid;
+    grid-auto-flow: column;
+    width: 80%;
+    margin: auto;
+}
+
+.mgrid a{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 0.5cm 0;
+    text-align: center;
+}
+
+/* Media Query para establecer la pantalla web cuando el tamañoes menor o igual que 600px */
+
+@media (max-width: 600px){
+    .mflotantes a{
+        width:100%;
+        text-align: center;
+        
+    }
+    .mflex{
+        flex-direction: column;
+    }
+    
+    .mgrid{
+        grid-auto-flow: row;
+    }
+}
