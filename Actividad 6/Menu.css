@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.MenuH a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    width: 20%;
+    padding: 20px;
+    display: block;
+}
+
+.MenuH a:hover{
+    background-color: white;
+    color: black;
+}
+
+h1{
+    text-align: center;
+}
