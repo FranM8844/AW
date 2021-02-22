@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.Titulo{
+    text-align: right;
+    color: orange;
+    margin: 50px 240px 20px 980px;
+}
+
+.Titulo2{
+    text-align: right;
+    color: darkorange;
+    margin: 0px 440px 20px 0px;
+}
+
+body{
+    background-image: linear-gradient(red,blue);
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.Noticia-directa{
+    margin-top: 20px;
+    margin-bottom: 30px
+}
+
+.Inicio-directo{
+    background-color: black;
+    overflow: auto;
+}
+
+.Primero{
+    margin-left: 25px;
+    margin-right: 10px;
+}
+
+.Imagen{
+    width: 25%;
+    float: right;
+    margin-right: 15px;
+    border: dotted orange;
+}
+
+.Imagen1{
+    width: 9%;
+    margin-bottom: 20;
+    margin-top: -100px;
+}
+
+.Introduccion{
+    color: white;
+    margin-bottom: 10px
+    
+}
+
+.Tabla{
+    color: white;
+}
+
+.Naranja{
+    color: orange;
+}
