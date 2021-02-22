@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.Titulo1{
+    text-align: center;
+    color: white;
+    padding-bottom: 15px;
+}
+
+body{
+    background-image: linear-gradient(red,blue);
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.Imagen{
+    width: 25%;
+    border: dotted orange;
+    margin: 10px;
+    
+}
+
+.Noticia1a{
+    display: flex;
+    flex-basis: auto;
+    background-color: black;
+    color: white;
+    border: dotted white;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+.Noticia1{
+    width: 85%;
+    float: right;
+    margin-left: 1%;
+    margin-right: 14%;
+}
+
+@media (max-width: 800px){
+    .Noticia1a{
+        flex-direction: column;
+    }
+    .Imagen{
+        width: 50%;
+        margin: auto;
+    }
+    .Pnoticia{
+    
+    }
+}
+
+.Noticia2a{
+    display: flex;
+    flex-basis: auto;
+    background-color: black;
+    color: white;
+    border: dotted white;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+.Noticia2{
+    width: 85%;
+    float: right;
+    margin-left: 1%;
+    margin-right: 14%;
+}
+
+@media (max-width: 800px){
+    .Noticia2a{
+        flex-direction: column;
+    }
+    .Imagen{
+        width: 50%;
+        margin: auto;
+    }
+}
+
+.Noticia3a{
+    display: flex;
+    flex-basis: auto;
+    background-color: black;
+    color: white;
+    border: dotted white;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+.Noticia3{
+    width: 85%;
+    float: right;
+    margin-left: 1%;
+    margin-right: 14%;
+}
+
+@media (max-width: 800px){
+    .Noticia3a{
+        flex-direction: column;
+    }
+    .Imagen{
+        width: 50%;
+        margin: auto;
+    }
+}
+
+.Pnoticia{
+    width: 80%;
+    float: inherit;
+    margin-left: 1%;
+    margin-top: 5%;
+}
+
+.Pnoticia1{
+    width: 80%;
+    float: inherit;
+    margin-left: 1%;
+    margin-top: 5%;
+}
+
+.Pnoticia2{
+    width: 80%;
+    float: inherit;
+    margin-left: 1%;
+    margin-top: 5%;
+}
+
+.Primera{
+    background-color: white;
+    border: dotted black;
+    padding: 10px;
+    width: 70%;
+    margin: 20px auto 20px auto;
+}
+
+.Titulo{
+    text-align: right;
+    color: orange;
+    margin: 50px 240px 20px 10px;
+}
+
+.Imagen1{
+    width: 9%;
+    margin-bottom: 20;
+    margin-top: -100px;
+}
+
+.Inicio-directo{
+    background-color: black;
+    overflow: auto;
+    margin-bottom: 15px;
+}
+
+.Naranja{
+    color: orange;
+}
